@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Sello Propio - Remeras y prendas personalizadas desde 1 unidad. Diseños a pedido, rock nacional y códigos Spotify.">
+  <title>Sello Propio | Remeras Personalizadas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome para íconos sencillos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Hoja de estilos externa -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a href="#inicio" class="marca">
+        <img src="img/logo.jpg" alt="Logo Sello Propio" class="logo-img">
+        <div class="marca-texto">
+          <span class="marca-nombre">SELLO PROPIO</span>
+          <span class="marca-sub">PERSONALIZADOS</span>
+        </div>
+      </a>
+
+      <!-- Menú de navegación con lista desordenada (Requisito Clase 02 y 08) -->
+      <nav class="navegacion">
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://www.instagram.com/sellopropio.ok/" target="_blank" class="btn-instagram">
+        <i class="fa-brands fa-instagram"></i> @sellopropio.ok
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+  <main>
+
+    <!-- Hero Section con la identidad de Sello Propio -->
+    <section class="hero" id="inicio">
+      <div class="contenedor hero-grid">
+        <div class="hero-texto">
+          <span class="etiqueta-roja">Tu diseño, tu estilo</span>
+          <h1 class="hero-titulo">
+            ¿Querés <span class="resaltado-rojo">una sola?</span><br>
+            También la hacemos.
+          </h1>
+          <div class="linea-roja"></div>
+          <p class="hero-bajada">
+            Remeras personalizadas <strong>desde 1 unidad</strong>. Estampamos en algodón peinado de primera calidad tus
+            bandas de rock favoritas, códigos interactivos de Spotify o el diseño que vos elijas.
+          </p>
+          <div class="hero-botones">
+            <a href="#productos" class="btn btn-negro">Ver Productos</a>
+            <a href="#contacto" class="btn btn-borde">Pedir Presupuesto</a>
+          </div>
+        </div>
+        <div class="hero-imagen">
+          <img src="img/logo.jpg" alt="Sello Propio Tu Diseño Since 2025" class="hero-logo-destacado">
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de características -->
+    <section class="ventajas">
+      <div class="contenedor ventajas-grid">
+        <div class="ventaja-item">
+          <i class="fa-solid fa-shirt"></i>
+          <div>
+            <h3>100% Algodón Peinado</h3>
+            <p>Prendas suaves, frescas y de excelente confección.</p>
+          </div>
+        </div>
+        <div class="ventaja-item">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <div>
+            <h3>Desde 1 Unidad</h3>
+            <p>Hacemos tu pedido sin mínimos obligatorios.</p>
+          </div>
+        </div>
+        <div class="ventaja-item">
+          <i class="fa-solid fa-truck-fast"></i>
+          <div>
+            <h3>Envíos a Todo el País</h3>
+            <p>Coordinamos envíos seguros o punto de entrega.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECCIÓN PRODUCTOS (FLEXBOX) ==================== -->
+    <section class="seccion productos-seccion" id="productos">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <span class="subtitulo-rojo">Catálogo</span>
+          <h2>Productos Destacados</h2>
+          <p>Elegí uno de nuestros modelos o armá tu diseño a pedido.</p>
+        </div>
+
+        <!-- Contenedor con Flexbox (Requisito Clase 06 y 08) -->
+        <div class="contenedor-flex-productos">
+
+          <!-- Card 1 -->
+          <article class="tarjeta-producto">
+            <div class="tarjeta-img-contenedor">
+              <span class="badge-card">La más pedida</span>
+              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80"
+                alt="Remera Rock Nacional" class="producto-img">
+            </div>
+            <div class="tarjeta-info">
+              <h3>Remera Rock Nacional</h3>
+              <p>Estampas de Los Redondos, Callejeros, La Renga y Los Piojos en DTF full color de alta definición.</p>
+              <div class="tarjeta-precio-fila">
+                <span class="precio">$18.500</span>
+                <a href="#contacto" class="btn-comprar">
+                  <i class="fa-solid fa-cart-shopping"></i> Pedir
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="tarjeta-producto">
+            <div class="tarjeta-img-contenedor">
+              <span class="badge-card">Interactivo</span>
+              <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop&q=80"
+                alt="Remera con Código Spotify" class="producto-img">
+            </div>
+            <div class="tarjeta-info">
+              <h3>Remera Código Spotify</h3>
+              <p>Tu tema o lista favorita con el código escaneable directo desde la app de Spotify en el pecho o la
+                espalda.</p>
+              <div class="tarjeta-precio-fila">
+                <span class="precio">$19.500</span>
+                <a href="#contacto" class="btn-comprar">
+                  <i class="fa-solid fa-cart-shopping"></i> Pedir
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="tarjeta-producto">
+            <div class="tarjeta-img-contenedor">
+              <span class="badge-card">100% Personalizado</span>
+              <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&auto=format&fit=crop&q=80"
+                alt="Remera con Diseño a Elección" class="producto-img">
+            </div>
+            <div class="tarjeta-info">
+              <h3>Remera a Tu Medida</h3>
+              <p>Traé tu foto, logo, frase o ilustración. Te armamos el mockup previo antes de estampar.</p>
+              <div class="tarjeta-precio-fila">
+                <span class="precio">$18.500</span>
+                <a href="#contacto" class="btn-comprar">
+                  <i class="fa-solid fa-cart-shopping"></i> Pedir
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="tarjeta-producto">
+            <div class="tarjeta-img-contenedor">
+              <span class="badge-card">Invierno</span>
+              <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&auto=format&fit=crop&q=80"
+                alt="Buzo Hoodie Personalizado" class="producto-img">
+            </div>
+            <div class="tarjeta-info">
+              <h3>Buzo Hoodie Canguro</h3>
+              <p>Frisa abrigada de máxima calidad con capucha y bolsillo canguro. Personalizado con tu estampa.</p>
+              <div class="tarjeta-precio-fila">
+                <span class="precio">$38.000</span>
+                <a href="#contacto" class="btn-comprar">
+                  <i class="fa-solid fa-cart-shopping"></i> Pedir
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECCIÓN RESEÑAS (CSS GRID) ==================== -->
+    <section class="seccion resenas-seccion" id="resenas">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <span class="subtitulo-rojo">Opiniones</span>
+          <h2>Lo Que Dicen Quienes Ya Tienen Su Sello</h2>
+          <p>La experiencia de clientes que ya tienen sus remeras personalizadas.</p>
+        </div>
+
+        <!-- Contenedor con CSS Grid (Requisito Clase 07 y 08) -->
+        <div class="contenedor-grid-resenas">
+
+          <article class="tarjeta-resena">
+            <div class="estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="comentario">
+              "Le pedí una remera de Callejeros con el código de Spotify de una canción especial y quedó tremenda. Ya la
+              lavé un montón de veces y la estampa sigue impecable."
+            </p>
+            <div class="autor-resena">
+              <strong>Nicolás B.</strong>
+              <span>Cliente particular</span>
+            </div>
+          </article>
+
+          <article class="tarjeta-resena">
+            <div class="estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="comentario">
+              "¡La mejor atención! Me mandaron la vista previa por Instagram antes de estampar para ver cómo quedaba.
+              Llegó rapidísimo a mi casa."
+            </p>
+            <div class="autor-resena">
+              <strong>Micaela F.</strong>
+              <span>Pedido personalizado</span>
+            </div>
+          </article>
+
+          <article class="tarjeta-resena">
+            <div class="estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="comentario">
+              "Buscaba hacerme una sola remera con el logo de mi banda y en ningún lado te la hacen por unidad. Los
+              chicos de Sello Propio me la hicieron al toque y de diez."
+            </p>
+            <div class="autor-resena">
+              <strong>Joaquín T.</strong>
+              <span>Músico independiente</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTENIDO MULTIMEDIA ==================== -->
+    <section class="seccion multimedia-seccion">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <span class="subtitulo-rojo">Taller</span>
+          <h2>Proceso de Estampado</h2>
+          <p>Mirá cómo trabajamos cada prenda con tecnología DTF para que la estampa dure intacta.</p>
+        </div>
+        <div class="video-contenedor">
+          <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
+            title="Video Demostrativo del Taller Sello Propio" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TABLA SEMÁNTICA ==================== -->
+    <section class="seccion tabla-seccion">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <span class="subtitulo-rojo">Información</span>
+          <h2>Tiempos de Entrega y Producción</h2>
+          <p>Datos claros sobre cómo preparamos y despachamos cada pedido.</p>
+        </div>
+
+        <div class="tabla-envoltorio">
+          <table class="tabla-pedidos">
+            <thead>
+              <tr>
+                <th>Tipo de Pedido</th>
+                <th>Cantidad</th>
+                <th>Demora estimada</th>
+                <th>Modalidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Remera por unidad</td>
+                <td>1 a 2 unidades</td>
+                <td>48 a 72 hs hábiles</td>
+                <td>Retiro o Mensajería</td>
+              </tr>
+              <tr>
+                <td>Buzos / Hoodies</td>
+                <td>1 a 3 unidades</td>
+                <td>3 a 4 días hábiles</td>
+                <td>Retiro o Mensajería</td>
+              </tr>
+              <tr>
+                <td>Pedidos en cantidad</td>
+                <td>Más de 5 unidades</td>
+                <td>5 a 7 días hábiles</td>
+                <td>Envío a convenir</td>
+              </tr>
+              <tr class="fila-destacada">
+                <td colspan="4">💡 ¿Tenés una fecha límite o cumpleaños? Avisanos por mensaje para priorizar tu pedido.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECCIÓN CONTACTO (FORMSPREE) ==================== -->
+    <section class="seccion contacto-seccion" id="contacto">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <span class="subtitulo-rojo">Escribinos</span>
+          <h2>Hacé Tu Pedido o Consulta</h2>
+          <p>Completá el formulario o contactanos por Instagram para pasarnos tu diseño.</p>
+        </div>
+
+        <div class="contacto-columnas">
+
+          <!-- Columna Izquierda: Información de contacto -->
+          <div class="contacto-datos">
+            <h3>Canales de Atención</h3>
+            <p>Atendemos de forma directa y personalizada a través de nuestros canales:</p>
+
+            <ul class="lista-contacto">
+              <li>
+                <i class="fa-brands fa-instagram icono-rojo"></i>
+                <div>
+                  <strong>Instagram</strong>
+                  <a href="https://www.instagram.com/sellopropio.ok/" target="_blank">@sellopropio.ok</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-brands fa-whatsapp icono-rojo"></i>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span>Atención y consultas online</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot icono-rojo"></i>
+                <div>
+                  <strong>Zona de Entrega</strong>
+                  <span>Buenos Aires, Argentina</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="caja-aviso">
+              <h4>📌 ¿Cómo enviar tu idea?</h4>
+              <p>Podés contarnos qué diseño querés en el mensaje y luego adjuntarnos la imagen o link por Instagram.</p>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Formulario conectado a Formspree -->
+          <div class="contacto-formulario-caja">
+            <!-- 
+              REEMPLAZÁ EL ACTION con tu URL de Formspree:
+              action="https://formspree.io/f/TU_FORMSPREE_ID"
+            -->
+            <form class="formulario" action="https://formspree.io/f/TU_FORMSPREE_ID" method="POST">
+              <div class="campo">
+                <label for="nombre">Nombre y Apellido *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Sabrina López" required>
+              </div>
+
+              <div class="campo">
+                <label for="email">Correo Electrónico *</label>
+                <input type="email" id="email" name="email" placeholder="Ej: sabrina@correo.com" required>
+              </div>
+
+              <div class="campo">
+                <label for="prenda">Prenda de Interés</label>
+                <select id="prenda" name="prenda">
+                  <option value="remera-rock">Remera Rock Nacional</option>
+                  <option value="remera-spotify">Remera Código Spotify</option>
+                  <option value="remera-personalizada">Remera Diseño a Pedido (1 unidad)</option>
+                  <option value="buzo-hoodie">Buzo Hoodie Canguro</option>
+                  <option value="otro">Otra consulta</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label for="mensaje">Detalles de tu pedido *</label>
+                <textarea id="mensaje" name="mensaje" rows="4"
+                  placeholder="Contanos qué diseño o frase te gustaría, talle aproximado, o cualquier consulta..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-rojo">
+                <i class="fa-solid fa-paper-plane"></i> Enviar Consulta
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="contenedor footer-contenido">
+      <div class="footer-info">
+        <div class="marca footer-marca">
+          <img src="img/logo.jpg" alt="Logo Sello Propio" class="logo-img">
+          <span class="marca-nombre">SELLO PROPIO</span>
+        </div>
+        <p class="footer-desc">Remeras y prendas personalizadas desde 1 unidad. Tu diseño, tu sello. Since 2025.</p>
+      </div>
+
+      <div class="footer-enlaces">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-redes">
+        <h4>Seguinos</h4>
+        <a href="https://www.instagram.com/sellopropio.ok/" target="_blank" class="enlace-ig-footer">
+          <i class="fa-brands fa-instagram"></i> Instagram Oficial
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-creditos">
+      <p>&copy; 2026 Sello Propio | Proyecto desarrollado para la Pre-Entrega de Talento Tech Front-End JS.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
