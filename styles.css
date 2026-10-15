@@ -1,9 +1,3 @@
-/* ==========================================================
-   SELLO PROPIO | Estilos CSS (styles.css)
-   Proyecto Pre-Entrega - Talento Tech Front-End JS
-   Identidad visual: Blanco, Negro y Rojo Sello
-   ========================================================== */
-
 /* ---------- RESET BÁSICO ---------- */
 * {
   margin: 0;
@@ -18,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Enlaces sin subrayado por defecto (Clase 02 y 04) */
+
 a {
   text-decoration: none;
   color: inherit;
@@ -30,7 +24,7 @@ img {
   display: block;
 }
 
-/* Contenedor centralizado para limitar ancho */
+
 .contenedor {
   max-width: 1140px;
   margin: 0 auto;
@@ -38,7 +32,7 @@ img {
 }
 
 /* ==========================================================
-   HEADER Y NAVEGACIÓN (Clases 01, 02 y 04)
+   HEADER Y NAVEGACIÓN
    ========================================================== */
 .header {
   background-color: #ffffff;
@@ -86,13 +80,15 @@ img {
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.2em;
-  color: #c5221f; /* Rojo Sello */
+  color: #c5221f;
+
   margin-top: -3px;
 }
 
-/* Menú de Navegación */
+
 .menu {
-  list-style: none; /* Requisito: lista sin viñetas */
+  list-style: none;
+
   display: flex;
   gap: 24px;
 }
@@ -315,19 +311,17 @@ img {
   font-size: 0.95rem;
 }
 
-/* ==========================================================
-   SECCIÓN PRODUCTOS (FLEXBOX) - Requisito Clase 06 y 08
-   ========================================================== */
+
 .productos-seccion {
   background-color: #ffffff;
 }
 
 /* Contenedor Flexbox para Tarjetas */
 .contenedor-flex-productos {
-  display: flex;             /* FLEXBOX */
-  flex-wrap: wrap;           /* Permite que bajen si no entran */
-  justify-content: center;   /* Centra las tarjetas */
-  gap: 25px;                 /* Separación entre tarjetas */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
 }
 
 /* Tarjeta individual */
@@ -420,7 +414,7 @@ img {
 }
 
 /* ==========================================================
-   SECCIÓN RESEÑAS (CSS GRID) - Requisito Clase 07 y 08
+   SECCIÓN RESEÑAS 
    ========================================================== */
 .resenas-seccion {
   background-color: #f9fafb;
@@ -430,8 +424,10 @@ img {
 
 /* Contenedor CSS Grid */
 .contenedor-grid-resenas {
-  display: grid;                                              /* CSS GRID */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Columnas responsivas */
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
   gap: 20px;
 }
 
@@ -470,7 +466,7 @@ img {
 }
 
 /* ==========================================================
-   MULTIMEDIA & TABLA (Clases 02, 03 y 04)
+   MULTIMEDIA & TABLA 
    ========================================================== */
 .multimedia-seccion {
   background-color: #ffffff;
@@ -480,7 +476,8 @@ img {
   max-width: 700px;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 56.25%; /* Relación 16:9 */
+  padding-bottom: 56.25%;
+  /* Relación 16:9 */
   height: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -536,7 +533,7 @@ img {
 }
 
 /* ==========================================================
-   SECCIÓN CONTACTO & FORMSPREE (Clase 03 y 08)
+   SECCIÓN CONTACTO 
    ========================================================== */
 .contacto-seccion {
   background-color: #ffffff;
@@ -557,7 +554,7 @@ img {
   margin-bottom: 12px;
 }
 
-.contacto-datos > p {
+.contacto-datos>p {
   color: #4b5563;
   margin-bottom: 24px;
 }
@@ -662,7 +659,7 @@ img {
 }
 
 /* ==========================================================
-   FOOTER (Clase 01 y 04)
+   FOOTER 
    ========================================================== */
 .footer {
   background-color: #111111;
@@ -736,8 +733,7 @@ img {
 }
 
 /* ==========================================================
-   MEDIA QUERIES (Clase 07 y 08)
-   Adaptabilidad para celulares y pantallas pequeñas
+   MEDIA QUERIES 
    ========================================================== */
 @media (max-width: 768px) {
   .header-contenido {

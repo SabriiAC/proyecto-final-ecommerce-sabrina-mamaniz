@@ -13,16 +13,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome para íconos sencillos -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <!-- Hoja de estilos externa -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <!-- ==================== HEADER ==================== -->
+  <!-- Header -->
   <header class="header">
     <div class="contenedor header-contenido">
       <a href="#inicio" class="marca">
@@ -33,7 +32,7 @@
         </div>
       </a>
 
-      <!-- Menú de navegación con lista desordenada (Requisito Clase 02 y 08) -->
+      <!-- Navegación -->
       <nav class="navegacion">
         <ul class="menu">
           <li><a href="#inicio">Inicio</a></li>
@@ -49,10 +48,9 @@
     </div>
   </header>
 
-  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
   <main>
 
-    <!-- Hero Section con la identidad de Sello Propio -->
+    <!-- Hero -->
     <section class="hero" id="inicio">
       <div class="contenedor hero-grid">
         <div class="hero-texto">
@@ -77,7 +75,7 @@
       </div>
     </section>
 
-    <!-- Franja de características -->
+    <!-- Ventajas -->
     <section class="ventajas">
       <div class="contenedor ventajas-grid">
         <div class="ventaja-item">
@@ -104,7 +102,7 @@
       </div>
     </section>
 
-    <!-- ==================== SECCIÓN PRODUCTOS (FLEXBOX) ==================== -->
+    <!-- Productos -->
     <section class="seccion productos-seccion" id="productos">
       <div class="contenedor">
         <div class="titulo-seccion">
@@ -113,10 +111,8 @@
           <p>Elegí uno de nuestros modelos o armá tu diseño a pedido.</p>
         </div>
 
-        <!-- Contenedor con Flexbox (Requisito Clase 06 y 08) -->
         <div class="contenedor-flex-productos">
 
-          <!-- Card 1 -->
           <article class="tarjeta-producto">
             <div class="tarjeta-img-contenedor">
               <span class="badge-card">La más pedida</span>
@@ -135,7 +131,6 @@
             </div>
           </article>
 
-          <!-- Card 2 -->
           <article class="tarjeta-producto">
             <div class="tarjeta-img-contenedor">
               <span class="badge-card">Interactivo</span>
@@ -155,7 +150,6 @@
             </div>
           </article>
 
-          <!-- Card 3 -->
           <article class="tarjeta-producto">
             <div class="tarjeta-img-contenedor">
               <span class="badge-card">100% Personalizado</span>
@@ -174,7 +168,6 @@
             </div>
           </article>
 
-          <!-- Card 4 -->
           <article class="tarjeta-producto">
             <div class="tarjeta-img-contenedor">
               <span class="badge-card">Invierno</span>
@@ -197,7 +190,7 @@
       </div>
     </section>
 
-    <!-- ==================== SECCIÓN RESEÑAS (CSS GRID) ==================== -->
+    <!-- Reseñas -->
     <section class="seccion resenas-seccion" id="resenas">
       <div class="contenedor">
         <div class="titulo-seccion">
@@ -206,7 +199,6 @@
           <p>La experiencia de clientes que ya tienen sus remeras personalizadas.</p>
         </div>
 
-        <!-- Contenedor con CSS Grid (Requisito Clase 07 y 08) -->
         <div class="contenedor-grid-resenas">
 
           <article class="tarjeta-resena">
@@ -267,7 +259,7 @@
       </div>
     </section>
 
-    <!-- ==================== CONTENIDO MULTIMEDIA ==================== -->
+    <!-- Taller -->
     <section class="seccion multimedia-seccion">
       <div class="contenedor">
         <div class="titulo-seccion">
@@ -283,7 +275,7 @@
       </div>
     </section>
 
-    <!-- ==================== TABLA SEMÁNTICA ==================== -->
+    <!-- Tiempos de entrega -->
     <section class="seccion tabla-seccion">
       <div class="contenedor">
         <div class="titulo-seccion">
@@ -331,7 +323,7 @@
       </div>
     </section>
 
-    <!-- ==================== SECCIÓN CONTACTO (FORMSPREE) ==================== -->
+    <!-- Contacto -->
     <section class="seccion contacto-seccion" id="contacto">
       <div class="contenedor">
         <div class="titulo-seccion">
@@ -342,7 +334,6 @@
 
         <div class="contacto-columnas">
 
-          <!-- Columna Izquierda: Información de contacto -->
           <div class="contacto-datos">
             <h3>Canales de Atención</h3>
             <p>Atendemos de forma directa y personalizada a través de nuestros canales:</p>
@@ -377,21 +368,16 @@
             </div>
           </div>
 
-          <!-- Columna Derecha: Formulario conectado a Formspree -->
           <div class="contacto-formulario-caja">
-            <!-- 
-              REEMPLAZÁ EL ACTION con tu URL de Formspree:
-              action="https://formspree.io/f/TU_FORMSPREE_ID"
-            -->
-            <form class="formulario" action="https://formspree.io/f/TU_FORMSPREE_ID" method="POST">
+            <form class="formulario" action="https://formspree.io/f/mgaopaoo" method="POST">
               <div class="campo">
                 <label for="nombre">Nombre y Apellido *</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ej: Sabrina López" required>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Lucas López" required>
               </div>
 
               <div class="campo">
                 <label for="email">Correo Electrónico *</label>
-                <input type="email" id="email" name="email" placeholder="Ej: sabrina@correo.com" required>
+                <input type="email" id="email" name="email" placeholder="Ej: lucas@correo.com" required>
               </div>
 
               <div class="campo">
@@ -424,7 +410,7 @@
 
   </main>
 
-  <!-- ==================== FOOTER ==================== -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="contenedor footer-contenido">
       <div class="footer-info">

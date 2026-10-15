@@ -80,5 +80,5 @@ Al tratarse de un sitio web estático desarrollado con HTML y CSS (sin un lengua
 
 ## 🚀 Despliegue en GitHub Pages
 
-- **Repositorio**: `https://github.com/[usuario]/proyecto-final-ecommerce-[nombre-apellido]`
-- **Sitio en vivo**: `https://[usuario].github.io/proyecto-final-ecommerce-[nombre-apellido]/`
+- **Repositorio**: `https://github.com/SabriiAC/proyecto-final-ecommerce-sabrina-mamaniz`
+- **Sitio en vivo**: `https://SabriiAC.github.io/proyecto-final-ecommerce-sabrina-mamaniz/`
