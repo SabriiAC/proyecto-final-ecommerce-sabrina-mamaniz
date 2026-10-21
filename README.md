@@ -1,6 +1,6 @@
 # Sello Propio | Remeras Personalizadas 👕
 
-Proyecto desarrollado para la **Pre-Entrega de la Clase 08** del curso **Talento Tech - Front-End JS** (Agencia de Habilidades para el Futuro - Gobierno de la Ciudad de Buenos Aires).
+Proyecto desarrollado para el curso **Talento Tech - Front-End JS** .
 
 ---
 
