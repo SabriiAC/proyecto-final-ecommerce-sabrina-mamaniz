@@ -1,14 +1,12 @@
 # Sello Propio | Remeras Personalizadas
 
-Proyecto desarrollado por Sabrina Belén Mamaniz para el trayecto formativo Front-End JS en Talento Tech.
+Sello Propio es una tienda y taller de indumentaria personalizada con identidad ligada al rock nacional, la cultura pop y los pedidos especiales por encargo.
+
+> "¿Querés una sola? También la hacemos. Remeras personalizadas desde 1 unidad."
 
 ---
 
 ## Propósito del Sitio Web
-
-Sello Propio es una tienda y taller de indumentaria personalizada con identidad ligada al rock nacional, la cultura pop y los pedidos especiales por encargo. El lema central sintetiza la propuesta de valor del negocio:
-
-> "¿Querés una sola? También la hacemos. Remeras personalizadas desde 1 unidad."
 
 El sitio web fue pensado para resolver tres necesidades concretas:
 1. Exhibir los modelos y variantes de estampado disponibles: remeras de bandas de rock, prendas con códigos interactivos de Spotify y buzos hoodie con frisa abrigada.
