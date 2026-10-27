@@ -50,19 +50,4 @@ El proyecto abarca los conceptos de desarrollo frontend estructurados a lo largo
 
 ## Integración con Formspree
 
-### Justificación Técnica
-Al ser un proyecto estático compuesto únicamente por HTML y CSS, el navegador no dispone de un motor de backend (como Node.js, Python o PHP) para enviar correos electrónicos por sí mismo.
-
-Formspree actúa como intermediario para resolver este flujo:
-1. El visitante completa sus datos y presiona el botón de envío.
-2. El formulario despacha una petición HTTP POST hacia el identificador del servicio en Formspree (https://formspree.io/f/mgaopaoo).
-3. Formspree procesa la solicitud y notifica de manera automática la consulta a la casilla de correo del administrador.
-
-### Pasos de Configuración:
-1. Crear una cuenta en formspree.io y generar un formulario nuevo.
-2. Copiar el código del endpoint asignado.
-3. Vincularlo en el atributo action del formulario dentro de index.html:
-
-```html
-<form class="formulario" action="https://formspree.io/f/mgaopaoo" method="POST">
-```
+Al tratarse de un sitio estático desarrollado exclusivamente con HTML y CSS, el proyecto no cuenta con un servidor backend para procesar envíos de correo. Para resolver la recepción de pedidos y presupuestos, el formulario se conecta directamente a Formspree mediante una petición HTTP POST, canalizando los datos ingresados hacia la casilla de correo del emprendimiento sin requerir infraestructura adicional.
